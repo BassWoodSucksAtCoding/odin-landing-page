@@ -2,6 +2,40 @@
 
 body {
     font-family: Roboto, sans-serif;
-    background-color: #1F2937;
+    font-size:18px;
+    padding:0;
+    margin:0;
 }
 
+.dark-bg {
+    background-color: #1F2937
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header .links {
+    color: #E5E7EB;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    padding:0;
+    margin:0;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
