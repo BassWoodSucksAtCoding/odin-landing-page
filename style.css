@@ -152,6 +152,14 @@ body {
     border: 3px solid #E5E7EB;
 }
 
+.footer {
+    height:70px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 ul {
     list-style-type: none;
