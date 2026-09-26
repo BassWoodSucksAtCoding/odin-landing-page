@@ -100,6 +100,10 @@ body {
     width:180px;
     font-size: 18px;
     text-align: center;
+    color: #818285;
+}
+.random-information {
+    margin-bottom: 70px;
 }
 
 .quote {
@@ -135,8 +139,13 @@ body {
     color:#E5E7EB;
     margin: 100px 140px;
     border-radius: 10px;
-    padding: 20px 0px;
+    padding: 50px 20px;
     gap: 2px;
+}
+
+.sign-up h3,
+.sign-up p{
+    margin:0px;
 }
 
 .sign-up button{
