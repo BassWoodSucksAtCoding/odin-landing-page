@@ -97,6 +97,7 @@ body {
 .random-information .card-text {
     width:180px;
     font-size: 18px;
+    text-align: center;
 }
 
 .quote {
