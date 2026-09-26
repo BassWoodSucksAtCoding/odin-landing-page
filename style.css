@@ -52,14 +52,16 @@ body {
     margin-bottom:5px;
 }
 
+.sign-up button,
 .hero button {
     background-color: #3882F6;
     color: #E5E7EB;
-    width: 80px;
+    width: 120px;
     border: none;
-    height:25px;
-    border-radius: 5px;
+    height:40px;
+    border-radius: 10px;
     font-weight: bold;
+    font-size:18px;
 }
 
 .hero .placeholder {
@@ -124,6 +126,23 @@ body {
     text-align:right;
     font-weight: bold;
 }
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#E5E7EB;
+    margin: 100px 140px;
+    border-radius: 10px;
+    padding: 20px 0px;
+    gap: 2px;
+}
+
+.sign-up button{
+    border: 3px solid #E5E7EB;
+}
+
 
 ul {
     list-style-type: none;
