@@ -61,6 +61,16 @@ body {
     font-weight: bold;
 }
 
+.hero .placeholder {
+    background-color: #6d747d;
+    width: 500px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
 ul {
     list-style-type: none;
     display:flex;
