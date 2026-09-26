@@ -21,6 +21,7 @@ body {
     color: #E5E7EB;
 }
 
+
 .hero,
 .header {
     display:flex;
@@ -96,6 +97,31 @@ body {
 .random-information .card-text {
     width:180px;
     font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left:280px;
+    padding-right:280px;
+    padding-top: 20px;;
+    margin:0px;
+}
+
+.quote-text{
+    color: #68707a;
+    font-size: 36px;
+    font-weight:300;
+    font-style:italic
+}
+
+.quote-sayer{
+    color:#1F2937;
+    text-align:right;
+    font-weight: bold;
 }
 
 ul {
