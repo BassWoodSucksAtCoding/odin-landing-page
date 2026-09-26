@@ -21,11 +21,44 @@ body {
     color: #E5E7EB;
 }
 
+.hero,
 .header {
     display:flex;
     justify-content: space-between;
     padding-left:100px;
     padding-right:100px;
+    padding-top: 20px;;
+    margin:0px;
+}
+
+.hero {
+    padding: 100px;
+}
+
+
+.hero .title {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 0px;
+    margin-bottom:5px;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color:  #E5E7EB;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.hero button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 80px;
+    border: none;
+    height:25px;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 ul {
